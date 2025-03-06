@@ -15,14 +15,15 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Para ofrecerte la mejor experiencia gastronómica, necesitamos tu permiso para acceder a la ubicación de tu dispositivo. Al habilitar los servicios de localización, podemos ofrecer recomendaciones personalizadas de restaurantes, estimaciones precisas de entrega y garantizar una experiencia de entrega de comida sin problemas."
+        android:text="@string/para_ofrecerte_la_mejor_experiencia_gastron_mica_necesitamos_tu_permiso_para_acceder_a_la_ubicaci_n_de_tu_dispositivo_al_habilitar_los_servicios_de_localizaci_n_podemos_ofrecer_recomendaciones_personalizadas_de_restaurantes_estimaciones_precisas_de_entrega_y_garantizar_una_experiencia_de_entrega_de_comida_sin_problemas"
         android:textAlignment="inherit"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView10"
@@ -31,7 +32,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="84dp"
         android:fontFamily="@font/playfair_display_bold"
-        android:text="Elige tu ubicación"
+        android:text="@string/elige_tu_ubicaci_n"
         android:textColor="@color/textColor"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,7 +62,8 @@
             android:layout_height="match_parent"
             android:fontFamily="@font/playfair_display_regular"
             android:inputType="none"
-            android:text="Elegir ubicación" />
+            android:text="Elegir ubicación"
+            tools:ignore="HardcodedText,LabelFor" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -73,11 +75,12 @@
         android:textAllCaps="false"
         android:textColor="@color/textColor"
         android:fontFamily="@font/playfair_display_black"
-        android:textSize="22dp"
+        android:textSize="22sp"
         android:text="Continuar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

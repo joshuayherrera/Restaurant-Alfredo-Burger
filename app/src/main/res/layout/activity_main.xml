@@ -15,7 +15,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/menu" />
+        app:menu="@menu/menu"
+        tools:ignore="VisualLintBottomNav" />
 
     <TextView
         android:id="@+id/textView16"
@@ -24,7 +25,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/playfair_display_black"
-        android:text="Explora tu comida favorita"
+        android:text="@string/explora_tu_comida_favorita"
         android:textColor="@color/textColor"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView16"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/bell_icon" />
+        app:srcCompat="@drawable/bell_icon"
+        tools:ignore="ContentDescription" />
 
     <fragment
         android:id="@+id/fragmentContainerView"
@@ -54,7 +56,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/navigation" />
+        app:navGraph="@navigation/navigation"
+        tools:ignore="FragmentTagUsage" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

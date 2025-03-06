@@ -20,7 +20,7 @@ class CartFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentCartBinding.inflate(inflater, container, false)
 
         // Los precios base de cada producto (siempre se debe usar este formato para que el adapter pueda extraer correctamente el valor numérico)

@@ -62,6 +62,7 @@ class CartAdapter(
             }
         }
 
+        @SuppressLint("SetTextI18n")
         private fun increaseQuantity(position: Int) {
             if (itemQuantities[position] < 10) {
                 itemQuantities[position]++
@@ -71,6 +72,7 @@ class CartAdapter(
             }
         }
 
+        @SuppressLint("SetTextI18n")
         private fun decreaseQuantity(position: Int) {
             if (itemQuantities[position] > 1) {
                 itemQuantities[position]--
@@ -81,6 +83,7 @@ class CartAdapter(
         }
 
         // Método para actualizar el precio basado en la cantidad
+        @SuppressLint("SetTextI18n", "DefaultLocale")
         private fun updatePriceForPosition(position: Int) {
             val basePrice = basePrices[position]
             val quantity = itemQuantities[position]

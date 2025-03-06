@@ -5,4 +5,24 @@
     <string name="restaurant_nalfredo_burger">Restaurant\nAlfredo Burger</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="elige_tu_ubicaci_n">Elige tu ubicación</string>
+    <string name="para_ofrecerte_la_mejor_experiencia_gastron_mica_necesitamos_tu_permiso_para_acceder_a_la_ubicaci_n_de_tu_dispositivo_al_habilitar_los_servicios_de_localizaci_n_podemos_ofrecer_recomendaciones_personalizadas_de_restaurantes_estimaciones_precisas_de_entrega_y_garantizar_una_experiencia_de_entrega_de_comida_sin_problemas">Para ofrecerte la mejor experiencia gastronómica, necesitamos tu permiso para acceder a la ubicación de tu dispositivo. Al habilitar los servicios de localización, podemos ofrecer recomendaciones personalizadas de restaurantes, estimaciones precisas de entrega y garantizar una experiencia de entrega de comida sin problemas.</string>
+    <string name="inicia_sesi_n_a_tu_cuenta">Inicia Sesión a tu cuenta</string>
+    <string name="correo_electr_nico">Correo Electrónico</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="continuar_con">Continuar con</string>
+    <string name="google">Google</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="explora_tu_comida_favorita">Explora tu comida favorita</string>
+    <string name="registrese_aqu">Registrese aquí</string>
+    <string name="nombre">Nombre</string>
+    <string name="registrate_con">Registrate con</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="entregando_tu_comida_favorita">Entregando tu comida favorita</string>
+    <string name="realizado_por_njoshua_alvarez">Realizado por\nJoshua Alvarez</string>
+    <string name="proceder_con_mi_pedido">Proceder con mi pedido</string>
+    <string name="popular">Popular</string>
+    <string name="ver_m_s">Ver más</string>
+    <string name="agregar_al_carrito">Agregar al carrito</string>
 </resources>

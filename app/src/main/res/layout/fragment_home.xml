@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/playfair_display_black"
-        android:text="Popular"
+        android:text="@string/popular"
         android:textColor="@color/textColor"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,10 +59,11 @@
         android:elevation="5dp"
         android:fontFamily="@font/playfair_display_medium_italic"
         android:gravity="center"
-        android:text="Ver más"
+        android:text="@string/ver_m_s"
         android:textColor="@color/textColor"
         android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        tools:ignore="TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
