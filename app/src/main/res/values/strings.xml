@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaurant Alfredo Burger</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="disfrute_de_comidas_con_calidad_nde_restaurante_en_casa">Disfrute de comidas con calidad\nde restaurante en casa</string>
+    <string name="restaurant_nalfredo_burger">Restaurant\nAlfredo Burger</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

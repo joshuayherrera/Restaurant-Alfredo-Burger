@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Inicio"
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/home_active_icon"/>
+    <item android:title="Carrito"
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/outline_cart_icon"/>
+    <item android:title="Buscador"
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/search_icon"/>
+    <item android:title="Historial"
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/list_icon"/>
+    <item android:title="Perfil"
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/user_01"/>
+</menu>
